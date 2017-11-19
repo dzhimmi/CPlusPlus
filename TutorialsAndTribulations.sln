@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TutorialsAndTribulations", "TutorialsAndTribulations\TutorialsAndTribulations.vcxproj", "{A6A6D613-6D14-448F-B22A-D43C7307A5C3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoopingMenuCalculator", "LoopingMenuCalculator\LoopingMenuCalculator.vcxproj", "{5E88280C-2E4A-4C76-B98C-64CEFEEDD37B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{A6A6D613-6D14-448F-B22A-D43C7307A5C3}.Release|x64.Build.0 = Release|x64
 		{A6A6D613-6D14-448F-B22A-D43C7307A5C3}.Release|x86.ActiveCfg = Release|Win32
 		{A6A6D613-6D14-448F-B22A-D43C7307A5C3}.Release|x86.Build.0 = Release|Win32
+		{5E88280C-2E4A-4C76-B98C-64CEFEEDD37B}.Debug|x64.ActiveCfg = Debug|x64
+		{5E88280C-2E4A-4C76-B98C-64CEFEEDD37B}.Debug|x64.Build.0 = Debug|x64
+		{5E88280C-2E4A-4C76-B98C-64CEFEEDD37B}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E88280C-2E4A-4C76-B98C-64CEFEEDD37B}.Debug|x86.Build.0 = Debug|Win32
+		{5E88280C-2E4A-4C76-B98C-64CEFEEDD37B}.Release|x64.ActiveCfg = Release|x64
+		{5E88280C-2E4A-4C76-B98C-64CEFEEDD37B}.Release|x64.Build.0 = Release|x64
+		{5E88280C-2E4A-4C76-B98C-64CEFEEDD37B}.Release|x86.ActiveCfg = Release|Win32
+		{5E88280C-2E4A-4C76-B98C-64CEFEEDD37B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
