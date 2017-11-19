@@ -9,20 +9,15 @@ using namespace std;
 
 
 //Variables
-string password = "1234";
-string input;
+int i = 1;
 
 //main
 int main() {
-	cout << "Enter your password >" << flush;
-	cin >> input;
-
-	if (input == password) {
-		cout << "Correct: Access Granted!" << endl;
+	while (i <= 100000) {
+		cout << i << endl;
+		++i;
 	}
-	else {
-		cout << "Incorrect: Access Denied!" << endl;
-	}
+	cout << endl << "DONE!" << endl;
 
 	return 0;
 }
