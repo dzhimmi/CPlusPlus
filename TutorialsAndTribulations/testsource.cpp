@@ -9,14 +9,21 @@ using namespace std;
 
 
 //Variables
-int anInteger = 40643854;
+string password = "1234";
+string input;
 
 //main
 int main() {
-	cout << "Maximum int value: " << INT_MAX << endl << "Minimum int value: " << INT_MIN << endl;
-	cout << "Size of int: " << sizeof anInteger << endl;
+	cout << "Enter your password >" << flush;
+	cin >> input;
 
-	cin.ignore();
+	if (input == password) {
+		cout << "Correct: Access Granted!" << endl;
+	}
+	else {
+		cout << "Incorrect: Access Denied!" << endl;
+	}
+
 	return 0;
 }
 
