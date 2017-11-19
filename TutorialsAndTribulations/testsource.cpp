@@ -14,19 +14,14 @@ string input;
 
 //main
 int main() {
-	cout << "Enter your password >" << endl;
-	cin >> input;
-
 	do {
-		if (input == password) {
-			cout << "Correct Password: Access Granted" << endl;
-		}
-		else {
-			cout << "Wrong Password!" << endl << endl << "Enter Your Password" << endl;
-			cin >> input;
+		cout << "Enter your password >" << endl;
+		cin >> input;
+		if (input != password) {
+			cout << "Incorrect Password: Access Denied!" << endl << endl;
 		}
 	} while (input != password);
-	
+	cout << "Correct Password: Access Granted!" << endl;
 
 	return 0;
 }
